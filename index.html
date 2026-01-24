@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Creative | Modern Agency</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .glass {
+            background: rgba(255, 255, 255, 0.03);
+            webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #60a5fa, #a78bfa, #f472b6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-[#030712] text-white overflow-x-hidden">
+
+    <nav class="fixed w-full z-50 px-6 py-4">
+        <div class="max-w-7xl mx-auto flex justify-between items-center glass rounded-2xl px-6 py-3">
+            <div class="text-2xl font-extrabold tracking-tighter">Kanzacky<span class="text-blue-500">.</span></div>
+            <div class="hidden md:flex space-x-8 font-medium text-sm text-gray-400">
+                <a href="#" class="hover:text-white transition">Home</a>
+                <a href="#" class="hover:text-white transition">Services</a>
+                <a href="#" class="hover:text-white transition">Showcase</a>
+            </div>
+            <button class="bg-blue-600 hover:bg-blue-700 px-5 py-2 rounded-xl text-sm font-bold transition-all transform hover:scale-105">
+                Let's Play
+            </button>
+        </div>
+    </nav>
+
+    <section class="relative pt-32 pb-20 px-6">
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-blue-600/20 blur-[120px] rounded-full -z-10"></div>
+        
+        <div class="max-w-5xl mx-auto text-center">
+            <span class="inline-block px-4 py-1.5 rounded-full border border-blue-500/30 bg-blue-500/10 text-blue-400 text-xs font-bold mb-6 tracking-widest uppercase">
+                Belajar Tailwindcss
+            </span>
+            <h1 class="text-5xl md:text-8xl font-extrabold leading-[1.1] mb-8">
+                Deidara berkata<br> <span class="gradient-text">Seni adalah Ledakan.</span>
+            </h1>
+            <p class="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, eum ipsam? Harum, reiciendis! Reiciendis voluptatibus, doloribus tempora architecto deleniti incidunt, culpa ratione debitis iure inventore cum voluptate quisquam aliquam suscipit.
+            </p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <button class="bg-white text-black px-8 py-4 rounded-2xl font-bold hover:bg-gray-200 transition">Klik Kana</button>
+                <button class="glass px-8 py-4 rounded-2xl font-bold hover:bg-white/10 transition">Klik Kiri</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 px-6">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-6">
+            <div class="glass p-8 rounded-3xl group hover:border-blue-500/50 transition-all duration-500">
+                <div class="w-12 h-12 bg-blue-500/20 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition">
+                    <svg class="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                </div>
+                <h3 class="text-xl font-bold mb-4">Web Development</h3>
+                <p class="text-gray-400 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa voluptatibus et temporibus labore perspiciatis quasi quam dolorem recusandae ad, nesciunt ullam, tenetur maxime vero accusamus, totam veritatis porro. Magnam, repellat.</p>
+            </div>
+            <div class="glass p-8 rounded-3xl group hover:border-purple-500/50 transition-all duration-500">
+                <div class="w-12 h-12 bg-purple-500/20 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition">
+                    <svg class="w-6 h-6 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"></path></svg>
+                </div>
+                <h3 class="text-xl font-bold mb-4">UI/UX Design</h3>
+                <p class="text-gray-400 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa voluptatibus et temporibus labore perspiciatis quasi quam dolorem recusandae ad, nesciunt ullam, tenetur maxime vero accusamus, totam veritatis porro. Magnam, repellat.</p>
+            </div>
+            <div class="glass p-8 rounded-3xl group hover:border-pink-500/50 transition-all duration-500">
+                <div class="w-12 h-12 bg-pink-500/20 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition">
+                    <svg class="w-6 h-6 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                </div>
+                <h3 class="text-xl font-bold mb-4">Speed Optimization</h3>
+                <p class="text-gray-400 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa voluptatibus et temporibus labore perspiciatis quasi quam dolorem recusandae ad, nesciunt ullam, tenetur maxime vero accusamus, totam veritatis porro. Magnam, repellat.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="border-t border-white/5 py-10 text-center text-gray-500 text-sm">
+        <p>&copy; 2026 Kanzacky. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
