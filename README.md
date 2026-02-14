@@ -1,25 +1,24 @@
-﻿# 🚀 Modern Landing Page
+# Modern Landing Page
 
-Proyek ini adalah sebuah **Landing Page Digital Agency** yang dirancang dengan konsep modern, futuristik, dan sangat responsif. Dibuat menggunakan **Tailwind CSS** untuk mendalami konsep *utility-first CSS*.
+A **Digital Agency Landing Page** featuring a modern, futuristic, and highly responsive design. Built using **Tailwind CSS** to master the *utility-first CSS* concept.
 
-* **HTML5** - Struktur semantik.
-* **Tailwind CSS** - Styling via CDN (Modern utility-first framework).
-* **Google Fonts** - Menggunakan *Plus Jakarta Sans* untuk tipografi premium.
+* **HTML5** – Semantic structure.
+* **Tailwind CSS** – Styling via CDN (Modern utility-first framework).
+* **Google Fonts** – Featuring *Plus Jakarta Sans* for premium typography.
 
-## ✨ Fitur Utama
-* **Dark Mode UI:** Tampilan elegan dengan palet warna gelap yang modern.
-* **Glassmorphism:** Efek kartu transparan dan blur pada navbar.
-* **Fully Responsive:** Tampilan optimal di berbagai perangkat (Mobile, Tablet, Desktop).
-* **Modern Animations:** Hover effect dan transisi halus pada elemen interaktif.
-* **Gradient Text:** Efek warna gradasi pada headline utama.
+## Key Features
+* **Dark Mode UI:** Elegant design with a modern dark color palette.
+* **Glassmorphism:** Transparent card effects and blurred navigation bars.
+* **Fully Responsive:** Optimized for all devices (Mobile, Tablet, Desktop).
+* **Modern Animations:** Smooth hover effects and transitions.
+* **Gradient Text:** Stylized color gradients for primary headlines.
 
-## 📖 Apa yang Saya Pelajari?
-Melalui proyek ini, saya mempelajari beberapa konsep penting di Tailwind CSS:
-1.  **Responsive Design:** Menggunakan prefix `sm:`, `md:`, dan `lg:` untuk mengatur layout.
-2.  **Custom Colors:** Menggunakan *arbitrary values* seperti `bg-[#030712]`.
-3.  **Flexbox & Grid:** Menyusun tata letak komponen secara efisien.
-4.  **Backdrop Filter:** Implementasi efek kaca (`backdrop-filter: blur`).
+## Key Takeaways
+Through this project, I mastered several core Tailwind CSS concepts:
+1. **Responsive Design:** Implementing `sm:`, `md:`, and `lg:` prefixes.
+2. **Custom Colors:** Utilizing *arbitrary values* like `bg-[#030712]`.
+3. **Flexbox & Grid:** Efficient component layout management.
+4. **Backdrop Filter:** Implementing glass effects via `backdrop-blur`.
 
 ---
-
-Dibuat oleh [Kanzacky](https://github.com/Kanzacky)
+Created by [Kanzacky](https://github.com/Kanzacky)
